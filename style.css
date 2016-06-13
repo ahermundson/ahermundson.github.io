@@ -8,3 +8,8 @@ h1 {
   text-align: center;
   padding: 15px 0 15px;
 }
+
+.jumbotron {
+  background-color: 	#405580;
+  color: #e6e0d1;
+}
