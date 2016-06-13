@@ -14,5 +14,10 @@ h1 {
   color: #e6e0d1;
 }
 
+.jumbotron h3 {
+  text-align: center;
+}
+
 .jumbotron col-sm-9 {
-  margin-left: 25px;
+  text-align: right;
+}
