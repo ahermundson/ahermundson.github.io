@@ -18,6 +18,10 @@ h1 {
   text-align: center;
 }
 
-.jumbotron col-sm-9 {
+.jumbotron p {
+  text-align: right;
+}
+
+.jumbotron ul {
   text-align: right;
 }
