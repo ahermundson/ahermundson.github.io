@@ -13,3 +13,6 @@ h1 {
   background-color: 	#405580;
   color: #e6e0d1;
 }
+
+.jumbotron col-sm-9 {
+  margin-left: 25px;
