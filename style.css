@@ -1,21 +1,62 @@
 body {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #405580;
 }
 
-h1 {
+.header {
   color:	#405580;
   background-color: #e6e0d1;
-  text-align: center;
-  padding: 15px 0 15px;
+}
+
+#name {
+	padding-left: 10px;
+}
+
+#contact {
+	text-align: right;
+	padding-right: 10px;
+}
+
+#contact ul {
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.header .row {
+	border-bottom: none;
+}
+
+.header ul {
+	text-align: right;
+	padding-top: 15px;
+	vertical-align: middle;
 }
 
 .jumbotron {
-  background-color: 	#405580;
+  background-color: #405580;
   color: #e6e0d1;
 }
 
-.jumbotron h3 {
+.jumbotron h2 {
   text-align: center;
   padding-bottom: 20px;
+  text-decoration: underline;
 }
 
+.row {
+	border-bottom: 5px solid #2f2a47;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+ul {
+	font-size: 18px;
+}
+
+img {
+	border: 3px solid #e6e0d1;
+}
+
+#bottom {
+	border-bottom: none;
+}
