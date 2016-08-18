@@ -11,6 +11,11 @@ body {
 	color: white;
 }
 
+.btn:hover {
+	background color: white;
+	color: black;
+}
+
 .btn p {
 	padding: 10px, 30px, 10px, 30px;
 }
