@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>2016 Draft Order Generator</title>
+
+	</head>
+	<body>
+	<h1>2016 Draft Order Generator</h1>
+	<p>Test it out if you don't trust me.</p>
+
+	<button onclick="shuffle(players)">Click Me</button>
+
+	<p id="demo"></p>
+
+	<script>
+	var players = [ 'Alex','Brian','Jim','Joe','Jolene','Londa','Luke','Mike D','Mike S','Noah'];
+	document.getElementById("demo").innerHTML = players.join(" - ");
+
+	function shuffle (array) {
+	  var i = 0;
+	  var j = 0;
+	  var temp = null;
+
+	  for (i = array.length - 1; i > 0; i -= 1) {
+	    j = Math.floor(Math.random() * (i + 1));
+	    temp = array[i];
+	    array[i] = array[j];
+	    array[j] = temp;
+	  }
+	    document.getElementById("demo").innerHTML = players.join(" - ");
+	}
+	</script>
+	</body>
+</html>
