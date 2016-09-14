@@ -7,6 +7,11 @@ body {
     background: url("brushed.png") repeat;
 }
 
+header {
+	text-align: center;
+}
+
 header li {
     display: inline;
+    padding: 5px;
 }
