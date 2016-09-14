@@ -6,3 +6,7 @@
 body {
     background: url("brushed.png") repeat;
 }
+
+header li {
+    display: inline;
+}
